@@ -67,3 +67,10 @@ Tag [@nocodealex](https://instagram.com/nocodealex) so I can see it. Every file 
 the same credit, so leave it in the shot.
 
 Writing about it or citing it in a paper? Use **Cite this repository** in the sidebar on GitHub.
+
+## Fork notes (0xr3x)
+
+This fork reads the author's own sources by default: with no resume given, `/hiring-panel` takes the closest CV in
+`/home/rex/Documents/applications/base-cvs/` and the LinkedIn profile through the LinkedIn MCP (read-only), checks
+that the two agree, and lists the LinkedIn lines to change. If a job URL returns no text (Workday does), it asks
+for the posting to be pasted. Keep `.hiring-panel/` out of git.
